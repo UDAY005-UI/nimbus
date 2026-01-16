@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "baseUrl": ".",
+
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+
+    "paths": {
+      "@repo/common/*": ["packages/common/src/*"],
+      "@repo/auth/*": ["packages/auth/src/*"],
+      "@repo/storage-client/*": ["packages/storage-client/src/*"]
+    }
+  }
+}

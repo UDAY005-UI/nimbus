@@ -1,0 +1,53 @@
+{
+    "$schema": "https://turborepo.com/schema.json",
+    "tasks": {
+        "build": {
+            "dependsOn": ["^build"],
+            "inputs": ["$TURBO_DEFAULT$", ".env*"],
+            "outputs": [".next/**", "!.next/cache/**"]
+        },
+        "api-gateway#build": {
+            "dependsOn": ["^build"],
+            "env": [],
+            "cache": false
+        },
+        "metadata-service#build": {
+            "dependsOn": ["^build"],
+            "env": [],
+            "cache": false
+        },
+        "upload-service#build": {
+            "dependsOn": ["^build"],
+            "env": [],
+            "cache": false
+        },
+        "worker-service#build": {
+            "dependsOn": ["^build"],
+            "env": [],
+            "cache": false
+        },
+        "frontend#build": {
+            "dependsOn": ["^build"],
+            "env": [],
+            "cache": false
+        },
+        "lint": {
+            "dependsOn": ["^lint"]
+        },
+        "check-types": {
+            "dependsOn": ["^check-types"]
+        },
+        "dev": {
+            "cache": false,
+            "persistent": true
+        },
+        "start": {
+            "cache": false,
+            "persistent": true
+        },
+        "start:dev": {
+            "cache": false,
+            "persistent": true
+        }
+    }
+}

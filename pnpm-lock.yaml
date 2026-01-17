@@ -66,6 +66,9 @@ importers:
       '@nestjs/testing':
         specifier: ^11.0.1
         version: 11.1.12(@nestjs/common@11.1.12(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.12)(@nestjs/platform-express@11.1.12)
+      '@repo/eslint-config':
+        specifier: workspace:^
+        version: link:../../config/eslint-config
       '@types/express':
         specifier: ^5.0.0
         version: 5.0.6
@@ -133,6 +136,9 @@ importers:
         specifier: 19.2.3
         version: 19.2.3(react@19.2.3)
     devDependencies:
+      '@repo/eslint-config':
+        specifier: workspace:^
+        version: link:../../config/eslint-config
       '@tailwindcss/postcss':
         specifier: ^4
         version: 4.1.18
@@ -191,6 +197,9 @@ importers:
       '@nestjs/testing':
         specifier: ^11.0.1
         version: 11.1.12(@nestjs/common@11.1.12(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.12)(@nestjs/platform-express@11.1.12)
+      '@repo/eslint-config':
+        specifier: workspace:^
+        version: link:../../config/eslint-config
       '@types/express':
         specifier: ^5.0.0
         version: 5.0.6
@@ -279,6 +288,9 @@ importers:
       '@nestjs/testing':
         specifier: ^11.0.1
         version: 11.1.12(@nestjs/common@11.1.12(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.12)(@nestjs/platform-express@11.1.12)
+      '@repo/eslint-config':
+        specifier: workspace:^
+        version: link:../../config/eslint-config
       '@types/express':
         specifier: ^5.0.0
         version: 5.0.6
@@ -367,6 +379,9 @@ importers:
       '@nestjs/testing':
         specifier: ^11.0.1
         version: 11.1.12(@nestjs/common@11.1.12(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.1.12)(@nestjs/platform-express@11.1.12)
+      '@repo/eslint-config':
+        specifier: workspace:^
+        version: link:../../config/eslint-config
       '@types/express':
         specifier: ^5.0.0
         version: 5.0.6
